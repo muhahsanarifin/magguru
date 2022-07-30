@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* || Colors */
+:root {
+	--primary-color: #151b18;
+	--secondary-color: #F1ECC3;
+	--third-color: #5B8A72;
+	--fourth-color: rgba(91, 138, 114, 1.0);
+	--bg-color: #FFFFFF;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2,h3,h5,h6, p {
+	color: var(--primary-color);
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: var(--bg-color);
+	min-height: 100vh;
+}
+
+header {
+	background: var(--secondary-color);
+	box-shadow: 0 10px 6px -6px var(--fourth-color);
+	border-top-style: none;
+	border-bottom-left-radius: 24px;
+	border-bottom-right-radius: 24px;
+	margin: 0 4rem;
+	padding: 0.2rem 1rem;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* || Logo */
+div.logo {
+	flex: 0.1;
+}
+
+.logo img {
+	width: 4rem;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	flex: 0.1;
+}
+
+.info {
+	align-self: flex-end;
+	max-width: 38px;
+}
+
+.info i img {
+	width: 32px;
+	cursor: pointer;
+	margin-left: 1px;
+}
+
+.profiles {
+	border: 1px solid var(--fourth-color);
+	background: var(--secondary-color);
+	border-radius: 12px;
+	position: absolute;
+	right: 4.8rem;
+	top: 4rem;
+	min-width: 38px;
+	z-index: 1;
+
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	align-items: center;
+	padding-top: 2px;
+}
+
+.profiles a img {
+	width: 32px;
+}
+
+.info-profiles {
+	display: none;
+}
+
+/* || Main */
+main {
+	position: relative;
+	margin: 2rem 2rem;
+
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+/* || About us Section */
+.about-us {
+	margin: auto 2rem;
+}
+
+.about-us h1 {
+	color: var(--third-color);
+	font-size: 32px;
+}
+
+.about-us p {
+	width: fit-content;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: var(--third-color);
+}
+
+/* || Article Section */
+.article {
+	align-self: center;
+	margin: 0 10rem;
+	padding-left: 3rem;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: flex-start;
+}
+
+.article-content {
+	position: relative;
+	border: 1px solid var(--third-color);
+	background-color: var(--secondary-color);
+	border-radius: 8px;
+	width: 146px;
+	min-height: 240px;
+	padding: 0.5rem;
+	
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.article-content img {
+	position: absolute;
+	align-self: center;
+	width: 88px;
+	height: 88px;
+	transition: width 2s, height 2s;
+	transition-timing-function: ease-out;
+}
+
+.article-content img:hover {
+	width: 128px;
+	height: 128px;
+}
+
+.article-content span {
+	position: relative;
+	margin-top: 8.5rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	row-gap: 0.5rem;
+}
+
+.article-content h3 {
+	background-color: var(--third-color);
+	border: 1px solid var(--primary-color);
+	padding: 0.1rem;
+	border-radius: 2px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.article-content  a {
+	border-radius: 2px;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.article-content a p:hover {
+	font-weight: 500;
+}
+
+/* || Footer */
+footer {
+	position: relative;
+	margin: auto 2rem;
+	margin-bottom: 0.5rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+footer p {
+	border-radius: 2px;
+	padding: 0.4rem;
+	font-size: 12px;
+	font-weight: 500;
+	font-style: italic;
+}
+
+footer p span {
+	color: var(--third-color);
+}
+
+/* || Responsive Website */
+@media all and (max-width: 1280px) {
+	.article {
+		padding-left: 1rem;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.article {
+		padding-left: 0;
+		justify-content: center;
+	}
+
+	footer {
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.article {
+		padding-left: 1.7rem;
+		justify-content: flex-start;
+	}
+
+	footer {
+		justify-content: center;
+	}
+}
+
+@media all and (max-width: 480px) {
+	header {
+		margin: 0 1rem;
+	}
+
+	.profiles {
+		right: 1.8rem;
+	}
+
+	.about-us {
+		margin: auto 1rem;
+	}
+
+	.article {
+		padding-left: 0;
+	}
+
+	footer {
+		justify-content: center;
+	}
+}
