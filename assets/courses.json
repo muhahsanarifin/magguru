@@ -3,78 +3,98 @@
     "id": 1,
 		"img": "./assets/images/dicoding.png",
     "nama": "Dicoding",
-    "url": "https://www.dicoding.com"
+    "url": "https://www.dicoding.com",
+		"url_instagram": "https://www.instagram.com/dicoding"
   },
   {
     "id": 2,
     "img": "./assets/images/pzn.png",
     "nama": "Programmer Zaman Now",
-    "url": "https://www.programmerzamannow.com"
+    "url": "https://www.programmerzamannow.com",
+    "url_instagram": "https://www.instagram.com/programmerzamannow"
   },
   {
     "id": 3,
     "img": "./assets/images/sekolahkoding.png",
     "nama": "Sekolah Koding",
-    "url": "https://sekolahkoding.com"
+    "url": "https://sekolahkoding.com",
+    "url_instagram": "https://www.instagram.com/sekolahkoding"
   },
   {
     "id": 4,
     "img": "./assets/images/binar-academy.svg",
     "nama": "Binar Academy",
-    "url": "https://www.binaracademy.com"
+    "url": "https://www.binaracademy.com",
+    "url_instagram": "https://www.instagram.com/academybinar"
   },
   {
     "id": 5,
     "img": "./assets/images/alterra-academy.png",
     "nama": "Alterra Academy",
-    "url": "https://academy.alterra.id"
+    "url": "https://academy.alterra.id",
+    "url_instagram": "https://www.instagram.com/alterra.academy"
   },
   {
     "id": 6,
     "img": "./assets/images//hacktiv8.webp",
     "nama": "HACKTIV8",
-    "url": "https://www.hacktiv8.com"
+    "url": "https://www.hacktiv8.com",
+    "url_instagram": "https://www.instagram.com/hacktiv8id"
   },
   {
     "id": 7,
     "img": "./assets/images/pijar-camp.svg",
     "nama": "Pijar Camp",
-    "url": "https://camp.pijarmahir.id"
+    "url": "https://camp.pijarmahir.id",
+    "url_instagram": "https://www.instagram.com/pijarcamp.id"
   },
   {
     "id": 8,
     "img": "./assets/images/purwadika.svg",
     "nama": "Purwadika",
-    "url": "https://purwadhika.com"
+    "url": "https://purwadhika.com",
+    "url_instagram": "https://www.instagram.com/purwadhikaschool"
   },
   {
     "id": 9,
     "img": "./assets/images/salt.png",
     "nama": "Salt Academy",
-    "url": "https://salt.id/academy"
+    "url": "https://salt.id/academy",
+    "url_instagram": "https://www.instagram.com/saltacademy.id"
   },
   {
     "id": 10,
     "img": "./assets/images/dumbways.id.png",
     "nama": "Dumbways.id",
-    "url": "https://dumbways.id"
+    "url": "https://dumbways.id",
+    "url_instagram": "https://www.instagram.com/dumbways.id"
   },
   {
     "id": 11,
     "img": "./assets/images/eduwork.png",
     "nama": "Eduwork",
-    "url": "https://eduwork.id"
+    "url": "https://eduwork.id",
+    "url_instagram": "https://www.instagram.com/eduwork.id"
   },
   {
     "id": 12,
     "img": "./assets/images/rakamin-academy.png",
     "nama": "Rakamin Academy",
-    "url": "https://www.rakamin.com"
+    "url": "https://www.rakamin.com",
+    "url_instagram": "https://www.instagram.com/rakaminacademy"
   },
 	{
     "id": 13,
     "img": "./assets/images/bwa.svg",
     "nama": "BWA",
-    "url": "https://buildwithangga.com"
+    "url": "https://buildwithangga.com",
+    "url_instagram": "https://www.instagram.com/buildwithangga"
+  },
+	{
+    "id": 14,
+    "img": "./assets/images/fazztrack.svg",
+    "nama": "Fazztrack",
+    "url": "https://www.fazztrack.com",
+    "url_instagram": "https://www.instagram.com/fazztrack.id"
   }
 ]

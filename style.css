@@ -120,17 +120,20 @@ main {
 	border-bottom-color: var(--secondary-color);
 }
 
+.about-us p span {
+	font-weight: 500;
+}
+
 /* || Article Section */
 .article {
 	align-self: center;
 	margin: 0 10rem;
-	padding-left: 3rem;
 	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 2rem;
-	justify-content: flex-start;
+	justify-content: center;
 }
 
 .article-content {
@@ -147,7 +150,7 @@ main {
 	
 }
 
-.article-content img {
+img.logo-courses {
 	position: absolute;
 	align-self: center;
 	width: 88px;
@@ -156,12 +159,12 @@ main {
 	transition-timing-function: ease-out;
 }
 
-.article-content img:hover {
+img.logo-courses:hover {
 	width: 128px;
 	height: 128px;
 }
 
-.article-content span {
+.identity-courses {
 	position: relative;
 	margin-top: 8.5rem;
 
@@ -180,15 +183,20 @@ main {
 	text-align: center;
 }
 
-.article-content  a {
-	border-radius: 2px;
-	text-align: center;
-	cursor: pointer;
-	text-decoration: none;
+div.contact-course {
+	display: flex;
+	flex-direction: row;
+	column-gap: 0.5rem;
+	justify-content: center;
+	padding: 0;
 }
 
-.article-content a p:hover {
-	font-weight: 500;
+.contact-course a{
+	padding-top: 0.4rem;
+}
+
+img.website-icon-courses, img.instagram-icon-courses {
+	width: 32px;
 }
 
 /* || Footer */
@@ -202,30 +210,24 @@ footer {
 	justify-content: flex-end;
 }
 
-footer p {
+footer p.footer {
 	border-radius: 2px;
 	padding: 0.4rem;
-	font-weight: 500;
 	font-size: 12px;
 	font-style: italic;
 }
 
-footer p span {
+footer p.footer span {
 	color: var(--third-color);
+	font-weight: 500;
 }
 
 /* || Responsive Website */
-@media all and (max-width: 1280px) {
-	.article {
-		padding-left: 1rem;
-	}
-}
+/* @media all and (max-width: 1280px) {
+
+} */
 
 @media all and (max-width: 1024px) {
-	.article {
-		padding-left: 0;
-		justify-content: center;
-	}
 
 	footer {
 		justify-content: center;
@@ -233,10 +235,6 @@ footer p span {
 }
 
 @media all and (max-width: 768px) {
-	.article {
-		padding-left: 1.7rem;
-		justify-content: flex-start;
-	}
 
 	footer {
 		justify-content: center;
