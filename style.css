@@ -94,16 +94,18 @@ nav {
 /* || Main */
 main {
 	position: relative;
-	margin: 2rem 2rem;
+	margin: 4rem 2rem;
 
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 4rem;
 }
 
 /* || About us Section */
 .about-us {
-	margin: auto 2rem;
+	align-self: center;
+	text-align: center;
+	padding: 0.5rem;
 }
 
 .about-us h1 {
@@ -115,7 +117,7 @@ main {
 	width: fit-content;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
-	border-bottom-color: var(--third-color);
+	border-bottom-color: var(--secondary-color);
 }
 
 /* || Article Section */
