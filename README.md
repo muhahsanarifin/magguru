@@ -1,4 +1,4 @@
-## magguru
+<h2 align="center"> magguru </h2>
 
 ![Alt text](./assets/images/magguru.png?raw=true)
 
