@@ -67,20 +67,19 @@ nav {
 }
 
 .profiles {
-	border: 1px solid var(--fourth-color);
-	background: var(--secondary-color);
-	border-radius: 12px;
-	position: absolute;
-	right: 4.8rem;
-	top: 4rem;
-	min-width: 38px;
-	z-index: 1;
-
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
-	align-items: center;
-	padding-top: 2px;
+  border: 1px solid var(--fourth-color);
+  background: var(--secondary-color);
+  border-radius: 12px;
+  position: absolute;
+  right: 4.8rem;
+  top: 4rem;
+  min-width: 38px;
+  z-index: 1;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  padding-top: 2px;
+	display: none;
 }
 
 .profiles a img {
@@ -88,7 +87,7 @@ nav {
 }
 
 .info-profiles {
-	display: none;
+  display: flex;
 }
 
 /* || Main */
@@ -223,9 +222,6 @@ footer p.footer span {
 }
 
 /* || Responsive Website */
-/* @media all and (max-width: 1280px) {
-
-} */
 
 @media all and (max-width: 1024px) {
 

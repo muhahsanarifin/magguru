@@ -1,16 +1,29 @@
 // Info
-const overtoInfo = document.getElementById("showInfo");
-overtoInfo.addEventListener("click",showInfo);
+document.getElementById("showInfo").addEventListener("click", function(){
+	
+	document.getElementById("infoProfiles").classList.toggle("info-profiles");
 
-const infoProfiles = document.getElementById("infoProfiles");
+});
 
-function showInfo() {
-	infoProfiles.classList.toggle("info-profiles");
-}
+// Menutup Dropdown ketika user melakukan klik diluar dari objek dropdown
+/*window.onclick = function(event){
+	
+	if(!event.target.matches('.info')){	
+
+		let profileContent = document.getElementsByClassName("profiles");
+
+			for (let showProfileContent of profileContent) {
+
+			if(showProfileContent.classList.contains('info-profiles')) {
+				
+				showProfileContent.classList.remove('info-profiles');
+			 } 
+		}
+	}
+}*/
 
 // Targets
 const toClick = document.getElementsByTagName("a");
-// console.log(toClick)
 
 let index = '';
 
