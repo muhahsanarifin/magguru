@@ -2,68 +2,68 @@
 
 /* || Colors */
 :root {
-	--primary-color: #151b18;
-	--secondary-color: #F1ECC3;
-	--third-color: #5B8A72;
-	--fourth-color: rgba(91, 138, 114, 1.0);
-	--bg-color: #FFFFFF;
+  --primary-color: #151b18;
+  --secondary-color: #F1ECC3;
+  --third-color: #5B8A72;
+  --fourth-color: rgba(91, 138, 114, 1.0);
+  --bg-color: #FFFFFF;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h2,h3,h5,h6, p {
-	color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 body {
-	font-family: "Poppins", sans-serif;
-	background: var(--bg-color);
-	min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: var(--bg-color);
+  min-height: 100vh;
 }
 
 header {
-	background: var(--secondary-color);
-	box-shadow: 0 10px 6px -6px var(--fourth-color);
-	border-top-style: none;
-	border-bottom-left-radius: 24px;
-	border-bottom-right-radius: 24px;
-	margin: 0 4rem;
-	padding: 0.2rem 1rem;
-	
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+  background: var(--secondary-color);
+  box-shadow: 0 10px 6px -6px var(--fourth-color);
+  border-top-style: none;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  margin: 0 4rem;
+  padding: 0.2rem 1rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* || Logo */
 div.logo {
-	flex: 0.1;
+  flex: 0.1;
 }
 
 .logo img {
-	width: 4rem;
+  width: 4rem;
 }
 
 nav {
-	display: flex;
-	flex-direction: column;
-	flex: 0.1;
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
 }
 
 .info {
-	align-self: flex-end;
-	max-width: 38px;
+  align-self: flex-end;
+  max-width: 38px;
 }
 
 .info i img {
-	width: 32px;
-	cursor: pointer;
-	margin-left: 1px;
+  width: 32px;
+  cursor: pointer;
+  margin-left: 1px;
 }
 
 .profiles {
@@ -79,11 +79,11 @@ nav {
   gap: 0.5rem;
   align-items: center;
   padding-top: 2px;
-	display: none;
+  display: none;
 }
 
 .profiles a img {
-	width: 32px;
+  width: 32px;
 }
 
 .info-profiles {
@@ -92,169 +92,169 @@ nav {
 
 /* || Main */
 main {
-	position: relative;
-	margin: 4rem 2rem;
+  position: relative;
+  margin: 4rem 2rem;
 
-	display: flex;
-	flex-direction: column;
-	gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 
 /* || About us Section */
 .about-us {
-	align-self: center;
-	text-align: center;
-	padding: 0.5rem;
+  align-self: center;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .about-us h1 {
-	color: var(--third-color);
-	font-size: 32px;
+  color: var(--third-color);
+  font-size: 32px;
 }
 
 .about-us p {
-	width: fit-content;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-bottom-color: var(--secondary-color);
+  width: fit-content;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--secondary-color);
 }
 
 .about-us p span {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 /* || Article Section */
 .article {
-	align-self: center;
-	margin: 0 10rem;
-	
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 2rem;
-	justify-content: center;
+  align-self: center;
+  margin: 0 10rem;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .article-content {
-	position: relative;
-	border: 1px solid var(--third-color);
-	background-color: var(--secondary-color);
-	border-radius: 8px;
-	width: 146px;
-	min-height: 240px;
-	padding: 0.5rem;
-	
-	display: flex;
-	flex-direction: column;
-	
+  position: relative;
+  border: 1px solid var(--third-color);
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  width: 146px;
+  min-height: 240px;
+  padding: 0.5rem;
+  
+  display: flex;
+  flex-direction: column;
+  
 }
 
 img.logo-courses {
-	position: absolute;
-	align-self: center;
-	width: 88px;
-	height: 88px;
-	transition: width 2s, height 2s;
-	transition-timing-function: ease-out;
+  position: absolute;
+  align-self: center;
+  width: 88px;
+  height: 88px;
+  transition: width 2s, height 2s;
+  transition-timing-function: ease-out;
 }
 
 img.logo-courses:hover {
-	width: 128px;
-	height: 128px;
+  width: 128px;
+  height: 128px;
 }
 
 .identity-courses {
-	position: relative;
-	margin-top: 8.5rem;
+  position: relative;
+  margin-top: 8.5rem;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	row-gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: 0.5rem;
 }
 
 .article-content h3 {
-	background-color: var(--third-color);
-	border: 1px solid var(--primary-color);
-	padding: 0.1rem;
-	border-radius: 2px;
-	font-size: 16px;
-	text-align: center;
+  background-color: var(--third-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.1rem;
+  border-radius: 2px;
+  font-size: 16px;
+  text-align: center;
 }
 
 div.contact-course {
-	display: flex;
-	flex-direction: row;
-	column-gap: 0.5rem;
-	justify-content: center;
-	padding: 0;
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  justify-content: center;
+  padding: 0;
 }
 
 .contact-course a{
-	padding-top: 0.4rem;
+  padding-top: 0.4rem;
 }
 
 img.website-icon-courses, img.instagram-icon-courses {
-	width: 32px;
+  width: 32px;
 }
 
 /* || Footer */
 footer {
-	position: relative;
-	margin: auto 2rem;
-	margin-bottom: 0.5rem;
+  position: relative;
+  margin: auto 2rem;
+  margin-bottom: 0.5rem;
 
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 footer p.footer {
-	border-radius: 2px;
-	padding: 0.4rem;
-	font-size: 12px;
-	font-style: italic;
+  border-radius: 2px;
+  padding: 0.4rem;
+  font-size: 12px;
+  font-style: italic;
 }
 
 footer p.footer span {
-	color: var(--third-color);
-	font-weight: 500;
+  color: var(--third-color);
+  font-weight: 500;
 }
 
 /* || Responsive Website */
 
 @media all and (max-width: 1024px) {
 
-	footer {
-		justify-content: center;
-	}
+  footer {
+    justify-content: center;
+  }
 }
 
 @media all and (max-width: 768px) {
 
-	footer {
-		justify-content: center;
-	}
+  footer {
+    justify-content: center;
+  }
 }
 
 @media all and (max-width: 480px) {
-	header {
-		margin: 0 1rem;
-	}
+  header {
+    margin: 0 1rem;
+  }
 
-	.profiles {
-		right: 1.8rem;
-	}
+  .profiles {
+    right: 1.8rem;
+  }
 
-	.about-us {
-		margin: auto 1rem;
-	}
+  .about-us {
+    margin: auto 1rem;
+  }
 
-	.article {
-		padding-left: 0;
-	}
+  .article {
+    padding-left: 0;
+  }
 
-	footer {
-		justify-content: center;
-	}
+  footer {
+    justify-content: center;
+  }
 }
