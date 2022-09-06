@@ -1,28 +1,32 @@
-// Info
-document.getElementById("showInfo").addEventListener("click", function(){
-	
-	document.getElementById("infoProfiles").classList.toggle("info-profiles");
+// || Info
 
+document.getElementById("showInfo").addEventListener("click", function () {
+  toogle(document.getElementById("infoProfiles"));
 });
 
+function toogle(event) {
+  event.classList.toggle("info-profiles");
+}
+
 // Menutup Dropdown ketika user melakukan klik diluar dari objek dropdown
-/*window.onclick = function(event){
+/*window.onclick = function(param){
 	
-	if(!event.target.matches('.info')){	
+	if(!param.target.matches('.info')){	
 
 		let profileContent = document.getElementsByClassName("profiles");
 
 			for (let showProfileContent of profileContent) {
+        
+        if(showProfileContent.classList.contains('info-profiles')) {
+          
+			  showProfileContent.classList.remove('info-profiles');
 
-			if(showProfileContent.classList.contains('info-profiles')) {
-				
-				showProfileContent.classList.remove('info-profiles');
-			 } 
+			}
 		}
 	}
 }*/
 
-// Targets
+// || Targets
 const toClick = document.getElementsByTagName("a");
 
 let index = '';
@@ -32,7 +36,7 @@ for (index = 0; index < toClick.length; index++) {
 }
 
 
-// Mengambil Data dari file course.json
+// || Mengambil Data dari file course.json
 fetch("./assets/courses.json")
 .then(function(respons){
 	return respons.json();
